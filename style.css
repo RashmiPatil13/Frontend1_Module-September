@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+nav{
+    align-items: end;
+}
+#nav-bar{
+    list-style: none;
+    justify-content:space-between;
+ }
+#btn:hover{
+    background-color: rgb(190, 239, 13);
+    border-color: chartreuse;
+    
+}
+.herosection{
+    padding-top: 70px;
+    margin-top: 130px;
+    
+}
+.name{
+   background-color: rgb(199, 226, 226);
+   width: 300px;
+   height: 30px;
+  
+   border-radius: 10px;
+}
+#full{
+    font-family: ABeeZee;
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: -0.015em;
+text-align: left;
+
+}
+.full{
+    font-family: ABeeZee;
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: -0.015em;
+text-align: left;
+}
+#std{
+    width:300px;
+    margin-top: 80px;
+}
+.card7{
+    
+    height: 550px;
+    width: 400px;
+    
+}
+.in{
+    border: none;
+    background-color: rgb(199, 226, 226);
+}
+#btn8{
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+    margin-left: 20px;
+    height: 50px;
+    width: 300px;
+    color:#FFFFFF;
+    margin-top: 30px;
+}
+
+.main2{
+    background-color: #ECF8FF;
+    margin-top: 90px;
+    padding-top: 40px;
+}
+.cards{
+    width: 450px;
+    height:700px ;
+    border: 2px solid #D7D7D7;
+}
+#button1{
+    background-color: #FFFFFF;
+}
+.main3{
+    margin-top: 80px;
+}
+.icons{justify-content: center;
+}
+.card2{
+    width: 400px;
+    height:250px ;
+    border-color: 1px solide gray;
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+}
+.card3{
+    width: 400px;
+    height:300px ;
+    border-color: 1px solide gray;
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+}
+.card4{
+    width: 400px;
+    height:330px ;
+    border-color: 1px solide gray;
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+    
+}
+.card5{
+    width: 400px;
+    height:230px ;
+    border-color: 1px solide gray;
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+}
+.card6{
+    width: 400px;
+    height:300px ;
+    border-color: 1px solide gray;
+    border-radius: 10px;
+    
+    border: 2px solid #D7D7D7;
+}
+#omg:hover{
+    background-color: chartreuse;
+}
+
+
