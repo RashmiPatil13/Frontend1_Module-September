@@ -156,12 +156,11 @@ text-align: left;
     /* #h{
         display: none !important;
     } */
-    /* .card-1{
-        margin-top: 20px;
+    #h{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
-    .card-1>button{
-        width: 200px;
-    } */
     .arrow{
         display: none;
     }
@@ -170,7 +169,12 @@ text-align: left;
         flex-direction: column;
         justify-content: center;
     }
-    .icons>img{
+    #com{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #ic{
         display: none;
     }
   } 
