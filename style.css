@@ -169,7 +169,10 @@ text-align: left;
         display: flex;
         flex-direction: column;
         justify-content: center;
-}
+    }
+    .icons>img{
+        display: none;
+    }
   } 
   
 
