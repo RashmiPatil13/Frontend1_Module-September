@@ -1,13 +1,21 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    
 }
-header{
+ header{
     background-color: #FFFFFF;
     position: fixed;
     width: 100%;
     top:0;
-}
+} 
+/* .head{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top:0;
+} */
 nav{
     align-items: end;
 }
@@ -85,7 +93,10 @@ text-align: left;
 .cards{
     width: 450px;
     height:700px ;
-    border: 2px solid #D7D7D7;
+    border-radius: 30px;
+    border: 2px solid #1a10ce;
+    
+    
 }
 #button1{
     background-color: #FFFFFF;
@@ -136,4 +147,29 @@ text-align: left;
     background-color: chartreuse;
 }
 
+
+ @media screen and (max-width: 480px) {
+      #nav-bar {
+      float: none;
+      width: 100%;
+    }
+    /* #h{
+        display: none !important;
+    } */
+    /* .card-1{
+        margin-top: 20px;
+    }
+    .card-1>button{
+        width: 200px;
+    } */
+    .arrow{
+        display: none;
+    }
+    #review{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+  } 
+  
 
