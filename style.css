@@ -177,6 +177,11 @@ text-align: left;
     #ic{
         display: none;
     }
+    #hero1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
   } 
   
 
